@@ -1,0 +1,61 @@
+#bud{
+    text-align: center;
+    background-image: url("https://www.ubuy.com.tr/productimg/?image=aHR0cHM6Ly9tLm1lZGlhLWFtYXpvbi5jb20vaW1hZ2VzL0kvNzFFV3pKQnZOMEwuX0FDX1NMMTI4MF8uanBn.jpg");
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#total{
+    font-size: 48px;
+    color: rgb(201, 181, 0);
+    text-shadow: 6px 6px 7px rgba(0,0,0,0.76);
+}
+#cards{
+    font-size: 48px;
+    color: rgb(201, 181, 0);
+    text-shadow: 6px 6px 7px rgba(0,0,0,0.76);
+}
+
+#messagebar{
+    font-size: 42px;
+    font-weight: bolder;
+    color: rebeccapurple;
+    text-shadow: 6px 6px 7px rgba(0,0,0,0.76);
+}
+
+button{
+    font-size: 30px;
+    margin-top: 12px;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(201, 181, 0);
+    color: black;
+    box-shadow: 3px 3px 15px 5px rgba(0,0,0,0.76);
+}
+#restart{visibility: hidden; }
+#again{visibility: hidden;}
+
+#heading{font-size: 84px;
+    color: rgb(201, 181, 0);
+    text-shadow: 6px 6px 7px rgba(0,0,0,0.76);
+}
+
+#money{font-size: 30px;
+    color: rgb(201, 181, 0);
+    text-shadow: 6px 6px 7px rgba(0,0,0,0.76);}
+
+button:hover{
+box-shadow: 3px 3px 15px 5px rgba(255, 0, 0, 0.76);   
+}
+#rules{
+text-align: center;
+visibility: hidden;
+background-color: rgba(30, 24, 24, 0.66);
+color:rgb(201, 181, 0);
+font-size: 24px;
+position: relative;
+top: -600px;
+width: 480px;}
+
+#heading:hover ~ #rules{
+    visibility: visible;
+}
